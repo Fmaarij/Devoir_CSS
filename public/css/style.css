@@ -86,15 +86,17 @@ padding: 50px;;
 }
 #position{
   position: relative;
-  
-}
-
+  }
 /* fin exo position  */
-
-
 
 /* exo position (priorité) */
 
-
-
+#posPrio > :nth-child(4){
+  background-color: blue;
+  margin-left: 100px;
+  position: static;
+}
+#posPrio > :nth-child(3){
+  position: absolute;
+}
 /* fin exo position (priorité) */
