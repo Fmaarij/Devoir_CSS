@@ -37,15 +37,64 @@ padding: 50px;;
 
 /* exo display */
 
+/* observation commencer
+#display > :nth-child(3){
+  display: inline-block;
+ }
+#display > :nth-child(4){
+    display: inline-block;
+} observation finit*/
+
 #display > ol li:nth-child(1){
   margin: 50px;
   padding: 50px;
 }
-
+#display > :nth-child(3){
+  display: inline;
+ }
+#display > :nth-child(4){
+    display: inline;
+}
+#display > :nth-child(4){
+  display: none;
+}
 /* fin exo display */
 
+/* exo float */
+
+#float > :nth-child(3){
+  width: auto;
+  float: right;
+}
+#float > :nth-child(4){
+  width: auto;
+  float: left;
+}
+#float{
+   overflow:scroll;
+}
+/* fin exo flaot */
+
 /* exo position */
-/* fin exo position */
+
+#position > :nth-child(3){
+  border:1px red solid;
+  position: fixed;
+  background-color: green;
+  top:50px;
+  left:50%
+}
+#position{
+  position: relative;
+  
+}
+
+/* fin exo position  */
+
+
 
 /* exo position (priorité) */
+
+
+
 /* fin exo position (priorité) */
